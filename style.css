@@ -105,3 +105,23 @@ body {
     font-size: 16px;
     color: #474849;
 }
+
+.section-three {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 75px 150px;
+    gap: 10px
+}
+
+.section-three .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section-three .name{
+    align-self: flex-end;
+    font-weight: bolder;
+}
