@@ -2,6 +2,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: -5px;
     }
 
 .section-one {
@@ -9,9 +10,8 @@ body {
     flex-direction: column;
     background: #1F2937;
     color: white;
-    margin: -10px -10px 0 -10px;
-    padding: 0 120px;
-    min-width: 450px;
+    padding: 0 350px;
+    min-width: 800px;
 }
 
 .section-one .top {
@@ -21,12 +21,12 @@ body {
     padding-bottom: 50px;
 }
 
-.top-left {
+.section-one .top-left {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.top ul {
+.section-one .top ul {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -34,14 +34,14 @@ body {
     color: #E5E7EB;
 }
 
-.bot {
+.section-one .bot {
     display: flex;
     margin-bottom: 100px;
     justify-content: space-between;
     gap: 80px;
 }
 
-.bot-left {
+.section-one .bot-left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,7 +49,7 @@ body {
     width: 400px;
 }
 
-.bot-left button{
+.section-one .bot-left button{
     background-color: #3882F6;
     font-weight: 700;
     color: white;
@@ -61,7 +61,7 @@ body {
     padding: 0;
 }
 
-.bot-left h1 {
+.section-one .bot-left h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -70,15 +70,15 @@ body {
     padding: 0;
 }
 
-.bot-right img {
+.section-one .bot-right img {
     max-width: 100%;
     height: auto;
     max-height: 250px;
-    min-width: 200px;
+    min-width: 250px;
 }
 
 .section-two img{
-    width: 150;
+    width: 200px;
     height: 150px;
 }
 
@@ -119,7 +119,11 @@ body {
     display: flex;
     flex-direction: column;
     padding: 75px 150px;
-    gap: 10px
+    gap: 10px;
+    margin-top: 50px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-three .quote {
@@ -141,8 +145,10 @@ body {
     margin: 100px 80px;
     color: #F9FAF8;
     border-radius: 10px;
-    justify-content: space-between;
-}
+    align-self: center;
+    gap: 155px;
+    max-width: 1000px;
+} 
 
 .section-four button {
     background-color: #3882F6;
