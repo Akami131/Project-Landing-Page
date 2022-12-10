@@ -153,6 +153,7 @@ body {
     align-self: center;
     gap: 155px;
     max-width: 1000px;
+    min-width: 500px;
 } 
 
 .section-four button {
@@ -160,9 +161,13 @@ body {
     border: solid;
     border-color: white;
     border-radius: 10px;
-    padding: 0 35px;
     color: #F9FAF8;
     font-weight: 700;
+    padding: 10px 35px;
+    margin: 0;
+    align-self: center;
+    white-space: nowrap;
+    text-align: center;
 }
 
 .section-four .header {
