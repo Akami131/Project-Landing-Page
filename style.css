@@ -16,7 +16,7 @@ body {
     background: #1F2937;
     color: white;
     padding: 0 600px;
-    min-width: 900px;
+    min-width: 50%;
 }
 
 .section-one .top {
@@ -64,6 +64,10 @@ body {
     padding: 0;
 }
 
+.section-one .bot-left button:hover {
+    background: #9bc1ff;
+}
+    
 .section-one .bot-left h1 {
     font-size: 48px;
     font-weight: 900;
@@ -170,6 +174,10 @@ body {
     align-self: center;
     white-space: nowrap;
     text-align: center;
+}
+
+button:hover {
+    background: #9bc1ff;
 }
 
 .section-four .header {
