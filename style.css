@@ -6,7 +6,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    margin: -5px;
+    margin: 0px;
     }
 
 .section-one {
@@ -42,15 +42,14 @@ body {
 .section-one .bot {
     display: flex;
     margin-bottom: 100px;
-    justify-content: space-between;
+    gap: 400px;
 }
 
 .section-one .bot-left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex: none;
-    width: 400px;
+    min-width: 400px;
 }
 
 .section-one .bot-left button{
@@ -69,7 +68,6 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-    margin-bottom: -25px;
     margin: 0;
     padding: 0;
 }
@@ -157,7 +155,6 @@ body {
     justify-content: space-between;
     align-self: center;
     gap: 155px;
-    max-width: 1500px;
     min-width: 500px;
 } 
 
